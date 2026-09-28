@@ -1,0 +1,127 @@
+{
+  "buyer_financials": {
+    "company_name": "AURA INDUSTRIAL TECH SOLUTIONS LIMITED",
+    "buyer_gstin": "27AABCA5555C1Z8",
+    "pan": "AABCA5555C",
+    "turnover_preceding_fy_inr_cr": 42.50,
+    "current_period": "Q3-FY2025-26",
+    "turnover_status": "EXCEEDS_10_CRORES_THRESHOLD"
+  },
+  "sap_purchase_register": [
+    {
+      "invoice_number": "INV/2025-26/1042",
+      "invoice_date": "2025-11-15",
+      "vendor_name": "TATA STEEL INDUSTRIAL SUPPLIES LTD",
+      "supplier_gstin": "27AAACT2727Q1ZW",
+      "pan": "AAACT2727Q",
+      "taxable_value": 7500000.00,
+      "igst": 1350000.00,
+      "cgst": 0.00,
+      "sgst": 0.00,
+      "total_invoice_value": 8852500.00,
+      "tcs_collected": 2500.00,
+      "tcs_section": "206C(1H)",
+      "hsn_code": "7208",
+      "item_description": "Hot Rolled Heavy Carbon Steel Coils"
+    },
+    {
+      "invoice_number": "INV-2025-089",
+      "invoice_date": "2025-11-18",
+      "vendor_name": "BHARAT FORGE ENGINEERING CORP",
+      "supplier_gstin": "27AAACB3333E1Z4",
+      "pan": "AAACB3333E",
+      "taxable_value": 1000000.00,
+      "igst": 0.00,
+      "cgst": 90000.00,
+      "sgst": 90000.00,
+      "total_invoice_value": 1180000.00,
+      "tcs_collected": 0.00,
+      "hsn_code": "8483",
+      "item_description": "Forged Transmission Components"
+    },
+    {
+      "invoice_number": "LNT/PUN/8841",
+      "invoice_date": "2025-11-20",
+      "vendor_name": "LARSEN INFOTECH INFRASTRUCTURE PVT LTD",
+      "supplier_gstin": "27AAACL1111G1Z1",
+      "pan": "AAACL1111G",
+      "taxable_value": 1200000.00,
+      "igst": 216000.00,
+      "cgst": 0.00,
+      "sgst": 0.00,
+      "total_invoice_value": 1416000.00,
+      "tcs_collected": 0.00,
+      "hsn_code": "9983",
+      "item_description": "Cloud ERP Implementation & Consulting"
+    },
+    {
+      "invoice_number": "JINDAL/CAP/451",
+      "invoice_date": "2025-11-25",
+      "vendor_name": "JINDAL POWER & ALLOY METALS",
+      "supplier_gstin": "27AAACJ8888D1Z9",
+      "pan": "AAACJ8888D",
+      "taxable_value": 450000.00,
+      "igst": 0.00,
+      "cgst": 40500.00,
+      "sgst": 40500.00,
+      "total_invoice_value": 531000.00,
+      "tcs_collected": 0.00,
+      "hsn_code": "7202",
+      "item_description": "Special Ferro Alloy Ingots"
+    }
+  ],
+  "gstr_2b_portal_data": [
+    {
+      "invoice_number": "INV/2025-26/1042",
+      "invoice_date": "2025-11-15",
+      "supplier_gstin": "27AAACT2727Q1ZW",
+      "pan": "AAACT2727Q",
+      "taxable_value": 7500000.00,
+      "igst": 1350000.00,
+      "cgst": 0.00,
+      "sgst": 0.00,
+      "filing_status": "FILED_IN_GSTR1",
+      "gstr1_filing_date": "2025-12-10",
+      "itc_availability": "YES"
+    },
+    {
+      "invoice_number": "INV-2025-089",
+      "invoice_date": "2025-11-18",
+      "supplier_gstin": "27AAACB3333E1Z4",
+      "pan": "AAACB3333E",
+      "taxable_value": 850000.00,
+      "igst": 0.00,
+      "cgst": 76500.00,
+      "sgst": 76500.00,
+      "filing_status": "FILED_IN_GSTR1",
+      "gstr1_filing_date": "2025-12-11",
+      "itc_availability": "YES"
+    },
+    {
+      "invoice_number": "JINDAL/CAP/451",
+      "invoice_date": "2025-11-25",
+      "supplier_gstin": "27AAACJ8888D1Z9",
+      "pan": "AAACJ8888D",
+      "taxable_value": 450000.00,
+      "igst": 0.00,
+      "cgst": 40500.00,
+      "sgst": 40500.00,
+      "filing_status": "FILED_IN_GSTR1",
+      "gstr1_filing_date": "2025-12-09",
+      "itc_availability": "YES"
+    },
+    {
+      "invoice_number": "RELIANCE/LOG/771",
+      "invoice_date": "2025-11-28",
+      "supplier_gstin": "27AAACR9999K1Z2",
+      "pan": "AAACR9999K",
+      "taxable_value": 320000.00,
+      "igst": 57600.00,
+      "cgst": 0.00,
+      "sgst": 0.00,
+      "filing_status": "FILED_IN_GSTR1",
+      "gstr1_filing_date": "2025-12-08",
+      "itc_availability": "YES"
+    }
+  ]
+}
