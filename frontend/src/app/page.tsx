@@ -39,7 +39,7 @@ const ThreeAgentMesh = dynamic(() => import("@/components/ThreeAgentMesh"), {
   ),
 });
 
-const BACKEND_URL = "http://127.0.0.1:8000";
+const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL || "http://127.0.0.1:8000";
 
 export default function AriaDashboard() {
   const [activeTab, setActiveTab] = useState<"matrix" | "dossier" | "presidio" | "telemetry">("matrix");

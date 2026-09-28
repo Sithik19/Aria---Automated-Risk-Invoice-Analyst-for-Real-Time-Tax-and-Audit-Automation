@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: aria-backend
+    runtime: python
+    rootDir: .
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: DATABASE_URL
+        sync: false   # Set manually in Render dashboard
+      - key: GROQ_API_KEY
+        sync: false   # Set manually in Render dashboard
+      - key: GROQ_MODEL
+        value: llama-3.3-70b-versatile
+      - key: QDRANT_STORAGE_PATH
+        value: ./qdrant_data
+      - key: QDRANT_COLLECTION
+        value: indian_tax_statutes
+    healthCheckPath: /api/health
